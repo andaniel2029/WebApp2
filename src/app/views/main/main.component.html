@@ -1,0 +1,43 @@
+<h1>
+    <small>Western Undergraduate Fall/Winter Academic Timetable 2019-20</small>
+</h1>
+<div class="schedule">
+    <div class="section">
+        <form>
+        <h3 for="create">Schedule Name: </h3>
+        <input id="scheduleName" type="text" name="create"><br>
+        <input type="submit" class="button" id="create" value="Create Schedule" (click)="createSchedule()">
+        <button type="button" id="create" (click)="getSchedule()">Search</button>
+        <button type="button" id="delete" (click)="deleteSchedule()">Delete</button>
+        </form><br>
+
+        <h3>Schedule: </h3>
+        <div id="schedule"></div>
+        <button type="button" id="save" (click)="gotoCount()">View All</button>
+        <button type="button" id="delete" (click)="deleteAll()">Delete All</button>
+        <button type="button" id="save" (click)="saveSchedule()">Save</button>
+    </div>
+    <div class="section">
+        <h3>Subject Code: </h3>
+        <select id="subject" name="subject">
+        </select>
+        <h3>Class Names:</h3>
+        <div id="classNames"></div>
+        <h3>Course Code: </h3>
+        <select id="codes" name="codes">
+        </select>
+        <h3>Course Component: </h3>
+        <select id="component" name="component">
+            <option selected value></option>
+            <option value="LEC">LEC</option>
+            <option value="LAB">LAB</option>
+            <option value="TUT">TUT</option>
+        </select>
+    </div>
+    <div class="section">
+        <h3>Class Name:</h3>
+        <h4 id="className"></h4>
+        <div id="timetable">
+        </div>
+    </div>
+</div>

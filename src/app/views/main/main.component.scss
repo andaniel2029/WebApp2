@@ -1,0 +1,39 @@
+#top{
+  background-color: #888888;
+}
+
+#delete{
+  background-color: #cc0000; 
+}
+
+#save{
+  background-color: #4CAF50;
+}
+
+#create{
+  background-color: #008CBA;
+  color:white;
+  border: none;
+  font-size: 16px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  margin: 5px;
+}
+
+button{
+  color:white;
+  border: none;
+  font-size: 16px;
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+.schedule{
+  display: flex;
+  width: 100%;
+}
+
+.section{
+  margin: 0 10px;
+  width: 33%;
+}
